@@ -2,7 +2,10 @@ import { services } from '../data/content'
 
 export default function Services() {
   return (
-    <section className="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-lowest">
+    <section
+      className="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-lowest"
+      id="services"
+    >
       <div className="max-w-container-max mx-auto">
         <div className="flex flex-col md:flex-row gap-16 items-start reveal">
           <div className="md:w-1/3 sticky top-32">

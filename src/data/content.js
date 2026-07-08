@@ -1,7 +1,12 @@
+import hwayjeHookahLogo from '../assets/hwayje-hookah.png'
+import hwayjePerfumeLogo from '../assets/hwayje-perfume.png'
+import amerTradingLogo from '../assets/Amer-trading.png'
+
 export const navLinks = [
+  { label: 'Home', href: '#hero' },
   { label: 'Expertise', href: '#expertise' },
-  { label: 'Success', href: '#success' },
   { label: 'Work', href: '#work' },
+  { label: 'Services', href: '#services' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -10,19 +15,19 @@ export const pillars = [
     icon: 'auto_awesome',
     title: 'Creative Strategy',
     description:
-      'Developing high-concept visual directions that resonate with elite audiences and establish market dominance.',
+      'Creating strong visual ideas that connect with the right audience and make the brand stand out.',
   },
   {
     icon: 'trending_up',
     title: 'Brand Growth',
     description:
-      'Implementing scalable growth frameworks that build authentic community while driving premium conversion rates.',
+      'Building simple growth strategies that increase engagement, community, and online presence.',
   },
   {
     icon: 'token',
     title: 'Content That Converts',
     description:
-      'Crafting short-form video and editorial content designed to trigger action and elevate brand desirability.',
+      'Creating videos, posts, and captions designed to attract attention and encourage people to take action.',
   },
 ]
 
@@ -41,57 +46,29 @@ export const skills = [
   'Campaign Planning',
 ]
 
-export const metrics = [
-  { value: '+150%', label: 'Engagement Growth' },
-  { value: '+50K', label: 'Monthly Reach' },
-  { value: '20+', label: 'Campaigns Managed' },
-  { value: '10+', label: 'Brands Collaborated' },
-  { value: '+35%', label: 'Audience Growth' },
-  { value: '100+', label: 'Posts & Reels' },
-]
-
 export const workItems = [
   {
-    tag: 'Strategy & Design',
-    title: 'Instagram Brand Campaign',
-    description: 'Full visual overhaul for a boutique jewelry line.',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuDVi-WYIdJiOVKQVqTSRvagh_hdeLaY3Y2Cto4gmiXR00bh9GfGUah5yYlWODm3QzNloDv-UuHiWoe_ib21odZ6MGghYCTdsA9UjnsaYsugmQ0NjaKn32MxwHO9A68XC7KlnwB86W7tBSmlvdMAah6d6KPx26BI30SsgM_1Ah8-PUU4o8aSIFKNWiusOYzzrZSZrHUnA7xYeY06kF3FmVgy1IptvTydQQi2rNUY6jCSc-ms0faZR9XA_LaPMd7tqDHuUbBUm1dWguo',
+    tag: 'Shisha & Lounge',
+    title: 'Hwayje Hookah',
+    description: 'Social media identity and content strategy for a modern hookah lounge brand.',
+    image: hwayjeHookahLogo,
+    fit: 'contain',
   },
   {
-    tag: 'Video Content',
-    title: 'TikTok Content Strategy',
-    description: 'Engineered virality for a premium skincare launch.',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuCQPkkxCXGMnEp6fwsG7vNZkfYJMjCQIwUy_ErKo27IK08j4owieFhdKtojnd2lsLqrzy1QbDhvbYicJFEJMeHYKPL8Vgw5wmDssts-ChYK6pcikpEEq8W-l4STU31Ul-bBzTkIEMMauxK5DYdXGBDqudc2W5KCsmg4DWTI3X4zCahGroGd_41yxitQZ-s2MoI5SLsCFwHrbckhmhCh4Tw5Gw0A-JAONNhhJRrj30I9CuhXpwNq4Kw_44cyLvEJUSAvqaoj0fgc2V8',
+    tag: 'Product Branding',
+    title: 'Hwayje Perfume',
+    description: 'Elevated visual identity and campaign content for a boutique fragrance line.',
+    image: hwayjePerfumeLogo,
+    fit: 'contain',
+    padding: 'p-0 md:p-2',
   },
   {
-    tag: 'Planning',
-    title: 'Social Media Calendar',
-    description: 'Managed multi-channel consistency for fashion elite.',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuCEVIzAafItnL8_oN4O-PnklT9HY28NPWU7ENzdx5JWnisqV1coEHB3mxVxK6Gipk3nfo6_94udXsIDB0Fdh8t7sMGYi2FzopHPbWmyOCqE50kgDd3VFoRrC5UDC-9ee6jLGxaQIL8uMKbjlrP7ZLRJgchduJ2HkXQidB9mNmAJBRkGgmn7VWg8c9aPapBpTt8BkhoEaxIlQYeNk1RsRWzDRg64YczbmpM_Yk1yzTYwbut9vSbO7ADM-IgOqaPcxA5-s-0GYZrpT9w',
-  },
-  {
-    tag: 'Marketing',
-    title: 'Product Launch',
-    description: 'Integrated funnel design from discovery to sale.',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuDOtmUUu5UzXgc1JbgsyWunooC2YJxN9SaHTthhUIcbm_hOyPNpNjDpJxEZLMcdRbDSJOPHgrsMyRqnmJKelAXWjeVOgKXA2b1gkwtzzeBB_wImbpiFJZ27L6lMRtdFl5b1XPHHhoHC_zxbQ0f2VgolQb0B1sG3yfqUVfjiOoQQ9BIzllgU35eQHvzbcFWymNYA0BE9N_o8vz0OeaegKGNuxGfiWcpcf0cjmkGILd1icuGyU7PzFHpaK5QXPzl2zLHJCUtfc4ePcjs',
-  },
-  {
-    tag: 'Production',
-    title: 'Reels Content Series',
-    description: 'High-performance video assets for organic reach.',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuBy3FCHb4JEq2Ipo7wzrfKMZsjFEKWcihC_qULf-GO3tZs860REd-hpprQiRhmKqDsRUme4MdmdJlN4JPJ3tI0t_sVW24GNw8z39VnVbZ2wCEix6sTBvQyzeYHOhy_wuT29aZy-nBfVoMa4iqSgHnBhSzhuysz_vH_56B_tdt6CdAUDPZBasmqiHBLfRrAoIBNm5FirOAW6s9bXLvMoMpLXhLlh0z2bVlpFKNarbc3PfknlI0BC3TYnXR2cMoE8uIvkBJGbddyfnBY',
-  },
-  {
-    tag: 'Identity',
-    title: 'Brand Visual Identity',
-    description: 'Defining the aesthetic language for global brands.',
-    image:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuAkWr1uRwNvgFCHk-RO4L8tcwcERNJDlyF_URSW6d7z6qfHa3gozqO0kUKNcf7zKxXIAcMmvFXO4q8eF1yc_xv90eouHEQPtG1Aow3mLyMB9EzJjFIHSA1QwROAZQ7xXd2Zt-lRFwpnqtpy9GRAo3LgshOFkXs4r_MT8dO-tZ7OsDOPJ3M_Ch5Qi38tD0oePPGasdSOp9V-RE2-eXjWbF_KF2CH16wetdM7GbeCA6OXvNSPrIYrOEX9DDjCPnednwnYMhoDWRBWO4I',
+    tag: 'Trading',
+    title: 'Amer Trading',
+    description: 'Brand identity and social media strategy for a growing trading company.',
+    image: amerTradingLogo,
+    fit: 'contain',
+    padding: 'p-0',
   },
 ]
 
@@ -125,26 +102,26 @@ export const services = [
 export const testimonials = [
   {
     quote:
-      'Working with ELITE was a turning point for our digital presence. The attention to detail and creative vision is unmatched.',
-    name: 'Alexandra Vance',
-    title: 'Founder, VANCE ATELIER',
+      'Working with One Media was a turning point for our digital presence. The attention to detail and creative vision is unmatched.',
+    name: 'Toufik Hwayje',
+    title: 'Founder, hwayje Hookah',
   },
   {
     quote:
       "They don't just post content; they build an ecosystem. Our engagement doubled within three months of our partnership.",
-    name: 'Marcus Thorne',
-    title: 'Marketing Director, LUXE GRP',
+    name: 'Reina hwayje',
+    title: 'Founder, Hwayje Perfume',
   },
   {
     quote:
       'The creative strategy provided gave our brand a cohesive, expensive feel that we had been struggling to achieve on our own.',
-    name: 'Elena Rossi',
-    title: 'Creative Lead, ROSSI BEAUTY',
+    name: 'Housam Amer',
+    title: 'Founder, Amer Group',
   },
 ]
 
 export const socialLinks = [
-  { key: 'instagram', label: 'Instagram', href: '#' },
-  { key: 'facebook', label: 'Facebook', href: '#' },
-  { key: 'tiktok', label: 'TikTok', href: '#' },
+  { key: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/mhamadnour_1?igsh=dTZyem5uZzR3dnFl' },
+  { key: 'facebook', label: 'Facebook', href: 'https://www.facebook.com/share/17juXnE4ko/?mibextid=wwXIfr' },
+  { key: 'tiktok', label: 'TikTok', href: 'https://www.tiktok.com/@mhamad.nour.h?_r=1&_t=ZS-97r6D4SQLjg' },
 ]

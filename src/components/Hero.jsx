@@ -13,11 +13,9 @@ export default function Hero() {
           <span className="gold-text-gradient">Digital Brand Strategist</span>
         </h1>
         <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-10">
-          I help luxury brands grow online through curated creative content,
-          sophisticated digital strategy, and powerful storytelling that
-          commands attention.
+          Helping brands grow through creative content, strategic storytelling, and a strong digital presence.
         </p>
-        <div className="flex flex-wrap gap-6 mb-12">
+        <div className="flex flex-wrap justify-center gap-6 mb-12">
           <a
             className="bg-primary text-on-primary px-10 py-4 rounded-full font-button uppercase tracking-widest hover:scale-105 transition-transform"
             href="#work"
@@ -31,20 +29,20 @@ export default function Hero() {
             Contact Me
           </a>
         </div>
-        <div className="flex gap-8 text-on-surface-variant">
+        <div className="flex justify-center gap-8 text-on-surface-variant">
           <a className="hover:text-primary transition-colors" href="#">
-            <span className="material-symbols-outlined">brand_awareness</span>
+            <span className="material-symbols-outlined text-4xl">brand_awareness</span>
           </a>
           <a className="hover:text-primary transition-colors" href="#">
-            <span className="material-symbols-outlined">
+            <span className="material-symbols-outlined text-4xl">
               video_camera_front
             </span>
           </a>
           <a className="hover:text-primary transition-colors" href="#">
-            <span className="material-symbols-outlined">groups</span>
+            <span className="material-symbols-outlined text-4xl">groups</span>
           </a>
           <a className="hover:text-primary transition-colors" href="#">
-            <span className="material-symbols-outlined">alternate_email</span>
+            <span className="material-symbols-outlined text-4xl">alternate_email</span>
           </a>
         </div>
       </div>

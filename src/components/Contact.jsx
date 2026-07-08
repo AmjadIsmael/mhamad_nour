@@ -1,5 +1,12 @@
 import { socialLinks } from '../data/content'
-import { InstagramIcon, FacebookIcon, TiktokIcon } from './icons/SocialIcons'
+import {
+  InstagramIcon,
+  FacebookIcon,
+  TiktokIcon,
+  WhatsappIcon,
+} from './icons/SocialIcons'
+
+const WHATSAPP_NUMBER = '96181002912'
 
 const iconByKey = {
   instagram: InstagramIcon,
@@ -28,17 +35,19 @@ export default function Contact() {
         <div className="flex flex-col md:flex-row gap-6 justify-center mb-16">
           <a
             className="bg-primary text-on-primary px-12 py-5 rounded-full font-button uppercase tracking-widest hover:scale-105 transition-transform flex items-center justify-center gap-3"
-            href="mailto:hello@elitecreative.com"
+            href="mailto:hello@onemedia.com"
           >
             <span className="material-symbols-outlined">mail</span>
             Inquire Now
           </a>
           <a
             className="border border-primary/30 text-primary px-12 py-5 rounded-full font-button uppercase tracking-widest hover:border-primary transition-all flex items-center justify-center gap-3"
-            href="#"
+            href={`https://wa.me/${WHATSAPP_NUMBER}`}
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <span className="material-symbols-outlined">calendar_today</span>
-            Schedule Call
+            <WhatsappIcon className="w-5 h-5" />
+            DM on WhatsApp
           </a>
         </div>
         <div className="flex justify-center gap-8">
@@ -56,6 +65,14 @@ export default function Contact() {
             )
           })}
         </div>
+        <footer className="mt-16 pt-8 border-t border-primary/10">
+          <div className="font-display-lg-mobile text-headline-md text-primary mb-4 uppercase tracking-tighter">
+            ONE MEDIA
+          </div>
+          <p className="font-body-md text-body-md text-on-surface-variant opacity-60">
+            © 2024 ONE MEDIA SPECIALIST. ALL RIGHTS RESERVED.
+          </p>
+        </footer>
       </div>
     </section>
   )

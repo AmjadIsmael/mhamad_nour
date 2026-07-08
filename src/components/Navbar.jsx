@@ -43,7 +43,7 @@ export default function Navbar() {
           className="font-display-lg-mobile text-headline-md text-primary tracking-tighter uppercase"
           href="#"
         >
-          ELITE CREATIVE
+          ONE MEDIA
         </a>
         <div className="hidden md:flex gap-8 items-center">
           {navLinks.map(({ label, href }) => (
@@ -60,12 +60,6 @@ export default function Navbar() {
               {label}
             </a>
           ))}
-          <a
-            className="bg-primary text-on-primary px-8 py-3 rounded-full font-button uppercase tracking-widest hover:scale-105 transition-transform duration-300"
-            href="#contact"
-          >
-            Inquire
-          </a>
         </div>
         <button
           className="md:hidden text-primary cursor-pointer"
@@ -95,13 +89,6 @@ export default function Navbar() {
               {label}
             </a>
           ))}
-          <a
-            className="bg-primary text-on-primary px-8 py-3 rounded-full text-center font-button uppercase tracking-widest"
-            href="#contact"
-            onClick={(e) => handleNavClick(e, '#contact')}
-          >
-            Inquire
-          </a>
         </div>
       )}
     </nav>

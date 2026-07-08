@@ -11,8 +11,7 @@ export default function Expertise() {
           Strategic Digital Authority
         </h2>
         <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
-          Focused on the intersection of aesthetic excellence and data-driven
-          performance.
+         Creating attractive content with a clear strategy to help brands grow online.
         </p>
       </div>
       <div className="grid md:grid-cols-3 gap-gutter max-w-container-max mx-auto">

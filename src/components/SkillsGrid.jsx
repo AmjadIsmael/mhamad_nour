@@ -12,10 +12,7 @@ export default function SkillsGrid() {
             Technical Core &amp; Mastery
           </h2>
         </div>
-        <p className="text-on-surface-variant max-w-sm mb-2">
-          A holistic approach to digital management across the entire content
-          lifecycle.
-        </p>
+        
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 reveal">
         {skills.map((skill) => (
