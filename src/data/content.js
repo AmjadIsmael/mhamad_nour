@@ -102,7 +102,7 @@ export const services = [
 export const testimonials = [
   {
     quote:
-      'Working with One Media was a turning point for our digital presence. The attention to detail and creative vision is unmatched.',
+      'Working with Oasis Digital was a turning point for our digital presence. The attention to detail and creative vision is unmatched.',
     name: 'Toufik Hwayje',
     title: 'Founder, hwayje Hookah',
   },

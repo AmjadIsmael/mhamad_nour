@@ -35,7 +35,7 @@ export default function Contact() {
         <div className="flex flex-col md:flex-row gap-6 justify-center mb-16">
           <a
             className="bg-primary text-on-primary px-12 py-5 rounded-full font-button uppercase tracking-widest hover:scale-105 transition-transform flex items-center justify-center gap-3"
-            href="mailto:hello@onemedia.com"
+            href="mailto:hello@oasisdigital.com"
           >
             <span className="material-symbols-outlined">mail</span>
             Inquire Now
@@ -67,10 +67,10 @@ export default function Contact() {
         </div>
         <footer className="mt-16 pt-8 border-t border-primary/10">
           <div className="font-display-lg-mobile text-headline-md text-primary mb-4 uppercase tracking-tighter">
-            ONE MEDIA
+            OASIS DIGITAL
           </div>
           <p className="font-body-md text-body-md text-on-surface-variant opacity-60">
-            © 2024 ONE MEDIA SPECIALIST. ALL RIGHTS RESERVED.
+            © 2024 OASIS DIGITAL SPECIALIST. ALL RIGHTS RESERVED.
           </p>
         </footer>
       </div>

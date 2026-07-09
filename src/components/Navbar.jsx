@@ -43,7 +43,7 @@ export default function Navbar() {
           className="font-display-lg-mobile text-headline-md text-primary tracking-tighter uppercase"
           href="#"
         >
-          ONE MEDIA
+          OASIS DIGITAL
         </a>
         <div className="hidden md:flex gap-8 items-center">
           {navLinks.map(({ label, href }) => (
