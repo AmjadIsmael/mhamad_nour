@@ -1,6 +1,6 @@
-import hwayjeHookahLogo from '../assets/hwayje-hookah.png'
-import hwayjePerfumeLogo from '../assets/hwayje-perfume.png'
-import amerTradingLogo from '../assets/Amer-trading.png'
+import hwayjeHookahLogo from '../assets/hwayje-hookah.webp'
+import hwayjePerfumeLogo from '../assets/hwayje-perfume.webp'
+import amerTradingLogo from '../assets/Amer-trading.webp'
 
 export const navLinks = [
   { label: 'Home', href: '#hero' },

@@ -1,4 +1,4 @@
-import heroImg from '../assets/mhmd nour.png'
+import heroImg from '../assets/mhmd nour.webp'
 
 export default function Hero() {
   return (
